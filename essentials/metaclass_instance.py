@@ -24,10 +24,8 @@ class MyTypeC(metaclass=MyMeta):
 if __name__ == "__main__":
     print(f"Count class: {MyMeta.counter}")
 
-    print(
-        f"""Get from:
+    print(f"""Get _order from:
     MyTypeA: {MyTypeA._order}
     MyTypeB: {MyTypeB._order}
     MyTypeC: {MyTypeC._order}
-"""
-    )
+""")
