@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# GCC
+gcc -fPIC -shared -o $CODENAME.so $CODENAME.c
+# Clang
